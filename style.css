@@ -1,0 +1,64 @@
+:root {
+  --lichtblauw: #C3F0F4;
+  --blauw: #63D8E6;
+  --geel: #FFC742;
+  --lichtgeel: #FFE4A4;
+  --donkerblauw: #3B44AD;
+  --groen: #5BBC82;
+  --lichtgroen: #BDE4CD;
+  --rood: #FE5E60;
+  --lichtrood: #FFDFDF;
+  --magenta: #FF56BA;
+  --lichtmagenta: #FFD8EF;
+  --paars: #C552B5;
+}
+
+h1 {
+	font-family: Roboto-Bold;
+	font-size: 44px;
+	letter-spacing: 0.5px;
+	text-align: center;
+	line-height: 52px;
+}
+
+h2 {
+	font-family: Roboto-Bold;
+	font-size: 32px;
+	letter-spacing: 0.36px;
+}
+
+h3 {
+	font-family: Karla-Bold;
+	font-size: 20px;
+	color: #3B44AD;
+	letter-spacing: 0.23px;
+	line-height: 32px;
+}
+
+body {
+	font-family: Karla-Regular;
+	font-size: 20px;
+	letter-spacing: 0.23px;
+	line-height: 32px;
+}
+
+button {
+	font-family: RobotoMono-Bold;
+	font-size: 18px;
+	letter-spacing: 0.2px;
+	text-align: center;
+	line-height: 20px;	
+	background: #FFFFFF;
+	border: 3px solid #000000;
+}
+
+input-field {
+	background: #FFFFFF;
+	border: 1px solid #C552B5;
+	font-family: Karla-Regular;
+	font-size: 20px;
+	color: #C552B5;
+	letter-spacing: 0.23px;
+	line-height: 32px;
+}
+
