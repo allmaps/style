@@ -1,16 +1,32 @@
 :root {
-  --lichtblauw: #C3F0F4;
-  --blauw: #63D8E6;
-  --geel: #FFC742;
-  --lichtgeel: #FFE4A4;
-  --donkerblauw: #3B44AD;
-  --groen: #5BBC82;
-  --lichtgroen: #BDE4CD;
-  --rood: #FE5E60;
-  --lichtrood: #FFDFDF;
-  --magenta: #FF56BA;
-  --lichtmagenta: #FFD8EF;
-  --paars: #C552B5;
+	--blauw-1: #C3F0F4,
+	--blauw-2: #63D8E6,
+	--blauw-3: #00618D,
+	--blauw-3: #3B44AD,
+	--geel-1: #FFE4A4,
+	--geel-2: #FFC742,
+	--geel-3: #E0B45C,
+	--groen-1: #BDE4CD,
+	--groen-2: #5BBC82,
+	--groen-3: #558F6C,
+	--groen-4: #1E7742,
+	--rood-1: #FFDFDF,
+	--rood-2: #FF4D56,
+	--rood-3: #C14456,
+	--rood-4: #E22D3F,
+	--paars-1: #F6E0F4,
+	--paars-2: #D162C6,
+	--paars-3: #AF69AC,
+	--paars-4: #993694,
+	--roze-1: #FFD8EF,
+	--roze-2: #FF56BA,
+	--roze-4; #B73B85,
+	--oranje-1: #FFE3D0,
+	--oranje-2: #FF7415,
+	--oranje-3: #C67844,
+	--oranje-4: #DB5800;
+	--zwart: #1D1D1D,
+	--grijs-2: #DDDDDD,
 }
 
 h1 {
@@ -54,10 +70,10 @@ button {
 
 input-field {
 	background: #FFFFFF;
-	border: 1px solid #C552B5;
+	border: 1px solid #grijs-2;
 	font-family: Karla-Regular;
 	font-size: 20px;
-	color: #C552B5;
+	color: #zwart;
 	letter-spacing: 0.23px;
 	line-height: 32px;
 }
