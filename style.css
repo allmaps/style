@@ -26,11 +26,11 @@
   --orange-3: #C67844;
   --orange-4: #DB5800;
   --black: #1D1D1D;
-  --gray-2: #DDDDDD;
+  --gray: #DDDDDD;
 }
 
 h1 {
-  font-family: Roboto-Bold;
+  font-family: "Roboto-Bold";
   font-size: 44px;
   letter-spacing: 0.5px;
   text-align: center;
@@ -38,13 +38,13 @@ h1 {
 }
 
 h2 {
-  font-family: Roboto-Bold;
+  font-family: "Roboto-Bold";
   font-size: 32px;
   letter-spacing: 0.36px;
 }
 
 h3 {
-  font-family: Karla-Bold;
+  font-family: "Karla-Bold";
   font-size: 20px;
   color: #3B44AD;
   letter-spacing: 0.23px;
@@ -52,14 +52,14 @@ h3 {
 }
 
 body {
-  font-family: Karla-Regular;
+  font-family: "Karla-Regular";
   font-size: 20px;
   letter-spacing: 0.23px;
   line-height: 32px;
 }
 
 button, .button {
-  font-family: RobotoMono-Bold;
+  font-family: "RobotoMono-Bold";
   font-size: 18px;
   letter-spacing: 0.2px;
   text-align: center;
@@ -70,10 +70,10 @@ button, .button {
 
 .input-field {
   background: #FFFFFF;
-  border: 1px solid --gray-2;
-  font-family: Karla-Regular;
+  border: 1px solid var(--gray);
+  font-family: "Karla-Regular";
   font-size: 20px;
-  color: --black;
+  color: var(--black);
   letter-spacing: 0.23px;
   line-height: 32px;
 }
